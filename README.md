@@ -20,4 +20,4 @@ For example, on the English 'About the team' page named `/en/about/team`, you mi
 Open `v2` folder, copy `LangSwitch` to your `site/addons` folder on your v2.x site
 
 ### Installation (for v1.x)
-Copy `_add-ons/lang_switch` to your `_add-ons` folder on your v1.x site
+Download the Statamic v1 version at https://github.com/mwesten/Statamic-Language-Switcher on the `statamic-v1` branch
