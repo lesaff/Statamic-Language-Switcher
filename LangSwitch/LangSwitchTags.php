@@ -19,7 +19,7 @@ class LangSwitchTags extends Tags
         $url       = $this->get('url', URL::getCurrent());
         $lang      = $this->get('lang');
         
-        $uri = URL::getDefaultUri($url, site_locale());
+        $uri = URL::getDefaultUri(site_locale(), $url);
         $url = Content::whereUri($uri)->in($lang)->absoluteUrl();
 
         return ($this->getBool('short_url')) ? URL::makeRelative($url) : $url;
