@@ -1,0 +1,6 @@
+name: LangSwitch
+version: 2.0.0
+description: Create links to corresponding languages on your site
+url: https://github.com/mwesten/Statamic-Language-Switcher
+developer: 'Jason Varga & Rudy Affandi (v2 conversion) & Max Westen (rebuild v2)'
+developer_url: http://DLMax.org
